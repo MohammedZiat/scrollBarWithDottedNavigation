@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                  <meta charset="UTF-8" />
+                  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                  <title>Custom Video Play/Pause button</title>
+                  <link rel="stylesheet" href="css/style.css" />
+                  <script src="js/script.js" defer></script>
+            </head>
+
+            <body>
+                 <div class="main_container">
+                   <div class="custom-video ">
+                         <!-- first video  -->
+                         <div class="custom-video__container">
+                               <video class="custom-video__video" width="100%" height="auto" poster="images/img_1.png">
+                                     <source src="videos/vid_1.mp4" type="video/mp4" />
+                                     Your browser does not support the video tag.
+                               </video>
+                               <div class="custom-video__control">▶</div>
+                         </div>
+
+                         <!-- second video   -->
+                         <div class="custom-video__container">
+                               <video class="custom-video__video" width="100%" height="auto" poster="images/img_2.png">
+                                     <source src="videos/vid_2.mp4" type="video/mp4" />
+                                     Your browser does not support the video tag.
+                               </video>
+                               <div class="custom-video__control">▶</div>
+                         </div> 
+
+                         <!-- third video  -->
+                         <div class="custom-video__container">
+                               <video class="custom-video__video" width="100%" height="auto" poster="images/img_3.png">
+                                     <source src="videos/vid_3.mp4" type="video/mp4" />
+                                     Your browser does not support the video tag.
+                               </video>
+                               <div class="custom-video__control">▶</div>
+                         </div>
+
+                         <!-- fourth video    -->
+                         <div class="custom-video__container">
+                               <video class="custom-video__video" width="100%" height="auto" poster="images/img_4.png">
+                                     <source src="videos/vid_4.mp4" type="video/mp4" />
+                                     Your browser does not support the video tag.
+                               </video>
+                               <div class="custom-video__control">▶</div>
+                         </div>
+                         <div class="custom-video__container">
+                               <video class="custom-video__video" width="100%" height="auto" poster="images/img_5.png">
+                                     <source src="videos/vid_5.mp4" type="video/mp4" />
+                                     Your browser does not support the video tag.
+                               </video>
+                               <div class="custom-video__control">▶</div>
+                         </div>
+                         <div class="custom-video__container">
+                               <video class="custom-video__video" width="100%" height="auto" poster="images/img_6.png">
+                                     <source src="videos/vid_6.mp4" type="video/mp4" />
+                                     Your browser does not support the video tag.
+                               </video>
+                               <div class="custom-video__control">▶</div>
+                         </div>
+                         <div class="custom-video__container">
+                               <video class="custom-video__video" width="100%" height="auto" poster="images/img_7.png">
+                                     <source src="videos/vid_7.mp4" type="video/mp4" />
+                                     Your browser does not support the video tag.
+                               </video>
+                               <div class="custom-video__control">▶</div>
+                         </div>
+                   </div>
+                   <div class="slider_navigation">
+                         <button id="slide-prev" class="btn btn1"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                                     viewBox="0 -960 960 960" width="24px" fill="#000">
+                                     <path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z" /></svg>
+                         </button>
+                         <ul class="dots">
+                               <li class="active"></li>
+                               <li></li>
+                               <li></li>
+                               <li></li>
+                               <li></li>
+                         </ul>
+                         <button id="slide-next" class="btn btn2">
+                               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                     width="24px" fill="#000">
+                                     <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" /></svg>
+                         </button>
+                   </div>
+                 </div>
+            </body>
+
+            </html> 
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Custom Video Play/Pause button</title>
+      <link rel="stylesheet" href="css/style.css" />
+      <script src="js/script.js" defer></script>
+</head>
+
+<body>
+            <div class="slider_container">
+                  <div class="slider_list">
+                        <div class="sliderlist_item">
+                              <div class="custom_video_container">
+                                    <video height="420px" width="300px" id="custom_video_video" class="custom_video"
+                                          muted
+                                          poster="https://cdn.shopify.com/s/files/1/0904/9335/4289/files/img_7.png?v=1729837677">
+                                          <source
+                                                src="https://cdn.shopify.com/videos/c/o/v/7a9c56c6f5fe4f818530411585e134ef.mp4"
+                                                type="video/mp4">
+                                          Your Browser Does Not Support This Type Of Video
+                                    </video>
+                                    <span class="custom_video_controls">▶</span>
+                              </div>
+                        </div>
+                        <div class="sliderlist_item">
+                              <div class="custom_video_container">
+                                    <video height="420px" width="300px" id="custom_video_video" class="custom_video"
+                                          muted poster="./images/img_2.png">
+                                          <source src="./videos/vid_2.mp4" type="video/mp4">
+                                          Your Browser Does Not Support This Type Of Video
+                                    </video>
+                                    <span class="custom_video_controls">▶</span>
+                              </div>
+                        </div>
+                        <div class="sliderlist_item">
+                              <div class="custom_video_container">
+                                    <video height="420px" width="300px" id="custom_video_video" class="custom_video"
+                                          muted poster="./images/img_3.png">
+                                          <source src="./videos/vid_3.mp4" type="video/mp4">
+                                          Your Browser Does Not Support This Type Of Video
+                                    </video>
+                                    <span class="custom_video_controls">▶</span>
+                              </div>
+                        </div>
+                        <div class="sliderlist_item">
+                              <div class="custom_video_container">
+                                    <video height="420px" width="300px" id="custom_video_video" class="custom_video"
+                                          muted poster="./images/img_4.png">
+                                          <source src="./videos/vid_4.mp4" type="video/mp4">
+                                          Your Browser Does Not Support This Type Of Video
+                                    </video>
+                                    <span class="custom_video_controls">▶</span>
+                              </div>
+                        </div>
+                        <div class="sliderlist_item">
+                              <div class="custom_video_container">
+                                    <video height="420px" width="300px" id="custom_video_video" class="custom_video"
+                                          muted poster="./images/img_5.png">
+                                          <source src="./videos/vid_5.mp4" type="video/mp4">
+                                          Your Browser Does Not Support This Type Of Video
+                                    </video>
+                                    <span class="custom_video_controls">▶</span>
+                              </div>
+                        </div>
+                        <div class="sliderlist_item">
+                              <div class="custom_video_container">
+                                    <video height="420px" width="300px" id="custom_video_video" class="custom_video"
+                                          muted poster="./images/img_6.png">
+                                          <source src="./videos/vid_6.mp4" type="video/mp4">
+                                          Your Browser Does Not Support This Type Of Video
+                                    </video>
+                                    <span class="custom_video_controls">▶</span>
+                              </div>
+                        </div>
+                        <div class="sliderlist_item">
+                              <div class="custom_video_container">
+                                    <video height="420px" width="300px" id="custom_video_video" class="custom_video"
+                                          muted poster="./images/img_7.png">
+                                          <source src="./videos/vid_7.mp4" type="video/mp4">
+                                          Your Browser Does Not Support This Type Of Video
+                                    </video>
+                                    <span class="custom_video_controls">▶</span>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="slider_navigation">
+                        <button id="slide-prev" class="btn btn1"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                                    viewBox="0 -960 960 960" width="24px" fill="#000">
+                                    <path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z" /></svg>
+                        </button>
+                        <ul class="dots">
+                              <li class="active"></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                        </ul>
+                        <button id="slide-next" class="btn btn2">
+                              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#000">
+                                    <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" /></svg>
+                        </button>
+                  </div>
+            </div>
+       </body>
+
+       </html>
+ -->
+
+
+
+
+       <!-- &#x23f5; -->
